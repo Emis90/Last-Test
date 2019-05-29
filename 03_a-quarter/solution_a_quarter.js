@@ -2,7 +2,6 @@
 function aQuarter(func) {
    let count = 1
 
-
    return function() {
      if (count < 4) {
          count ++
@@ -11,9 +10,7 @@ function aQuarter(func) {
          count = 1
          return func(...arguments)
      }
-    
    }
-
-
-
 }
+
+// This all looks really good - KH

@@ -12,7 +12,7 @@ class Character {
 
 class Letter extends Character {
     constructor(character, fontName, fontSize, charCase) {
-        super(character, fontName, fontSize, charCase) 
+        super(character, fontName, fontSize, charCase)
         this.charCase = charCase;
     }
 
@@ -39,3 +39,5 @@ class Digit extends Character {
        this.character = Number(this.character);
     }
 }
+
+// Wonderful job - this all looks great! - KH

@@ -6,3 +6,5 @@ const reduceRight = function(array, value, func) {
     return value
 
 }
+
+// Looks great! Good job - KH
